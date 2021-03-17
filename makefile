@@ -1,3 +1,3 @@
 all:
-	g++ main.cpp Ublox.cpp -o run
+	g++ main.cpp Ublox.cpp I2Cdev.cpp PCA9685.cpp  -o run
 	./run
